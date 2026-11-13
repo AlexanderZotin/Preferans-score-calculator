@@ -1,4 +1,4 @@
-package counter.model;
+package calculator.model;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;
@@ -7,8 +7,8 @@ import java.util.Objects;
 
 import lombok.NonNull;
 
-public class Counter implements PreferenceCounter {
-    public int[] count(@NonNull Player[] players) {
+public class Calculator implements PreferenceCalculator {
+    public int[] calculate(@NonNull Player[] players) {
         Arrays.stream(players).forEach(Objects::requireNonNull);
         Player[] copy = Player.cloneArray(players);
         convertWinPoints(copy);

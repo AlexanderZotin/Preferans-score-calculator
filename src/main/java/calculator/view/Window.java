@@ -1,9 +1,9 @@
-package counter.view;
+package calculator.view;
 
-import counter.exceptions.NegativeNumberException;
-import counter.model.PlayersCount;
-import counter.model.Player;
-import counter.controller.*;
+import calculator.exceptions.NegativeNumberException;
+import calculator.model.PlayersCount;
+import calculator.model.Player;
+import calculator.controller.*;
 
 import java.awt.Dimension;
 import java.awt.FlowLayout;
@@ -20,6 +20,7 @@ import javax.swing.SwingUtilities;
 
 import lombok.NonNull;
 
+@SuppressWarnings("serial")
 public class Window extends JFrame implements View {
     private Field field;
     private final JButton cleanAll = new JButton("Очистить всё");

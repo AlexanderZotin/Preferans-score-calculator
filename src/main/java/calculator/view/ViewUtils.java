@@ -1,6 +1,6 @@
-package counter.view;
+package calculator.view;
 
-import counter.exceptions.NegativeNumberException;
+import calculator.exceptions.NegativeNumberException;
 import lombok.NonNull;
 
 import javax.swing.JLabel;

@@ -1,7 +1,7 @@
-package counter.model;
+package calculator.model;
 
 import lombok.NonNull;
 
-public interface PreferenceCounter {
-    int[] count(@NonNull Player[] players);
+public interface PreferenceCalculator {
+    int[] calculate(@NonNull Player[] players);
 }

@@ -1,5 +1,6 @@
-package counter.exceptions;
+package calculator.exceptions;
 
+@SuppressWarnings("serial")
 public class NegativeNumberException extends IllegalArgumentException {
 
     public NegativeNumberException() {

@@ -1,6 +1,6 @@
-package counter.controller;
+package calculator.controller;
 
-import counter.model.PlayersCount;
+import calculator.model.PlayersCount;
 
 import javax.swing.JButton;
 import javax.swing.JComboBox;
@@ -13,7 +13,7 @@ import lombok.AllArgsConstructor;
 
 @AllArgsConstructor
 public class Listener implements ActionListener, ItemListener {
-    private final CounterController linkedController;
+    private final CalculatorController linkedController;
     
     @Override
     public void actionPerformed(ActionEvent e) {

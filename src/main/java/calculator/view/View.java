@@ -1,8 +1,8 @@
-package counter.view;
+package calculator.view;
 
-import counter.model.PlayersCount;
-import counter.model.Player;
-import counter.controller.Listener;
+import calculator.model.PlayersCount;
+import calculator.model.Player;
+import calculator.controller.Listener;
 
 import lombok.NonNull;
 

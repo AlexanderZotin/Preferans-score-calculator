@@ -1,4 +1,4 @@
-package counter.model;
+package calculator.model;
 
 import java.util.HashMap;
 import java.util.Map;

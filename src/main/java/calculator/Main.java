@@ -1,9 +1,9 @@
-package counter;
+package calculator;
 
-import counter.controller.ControllerImplementation;
-import counter.controller.Listener;
-import counter.model.Counter;
-import counter.view.Window;
+import calculator.controller.ControllerImplementation;
+import calculator.controller.Listener;
+import calculator.model.Calculator;
+import calculator.view.Window;
 
 import javax.swing.SwingUtilities;
 import javax.swing.UIManager;
@@ -14,7 +14,7 @@ public class Main {
         UIManager.put("OptionPane.noButtonText", "Нет");
         SwingUtilities.invokeLater(() -> {
             var view = new Window();
-            var controller = new ControllerImplementation(view, new Counter());
+            var controller = new ControllerImplementation(view, new Calculator());
             view.subscribeToListener(new Listener(controller));
             view.setVisible(true);
         });

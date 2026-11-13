@@ -1,10 +1,10 @@
-package counter.controller;
+package calculator.controller;
 
-import counter.view.View;
-import counter.view.ViewUtils;
-import counter.model.Player;
-import counter.model.Counter;
-import counter.exceptions.NegativeNumberException;
+import calculator.view.View;
+import calculator.view.ViewUtils;
+import calculator.model.Player;
+import calculator.model.Calculator;
+import calculator.exceptions.NegativeNumberException;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -12,9 +12,9 @@ import lombok.NonNull;
 
 @NonNull
 @AllArgsConstructor
-public class ControllerImplementation implements CounterController {
+public class ControllerImplementation implements CalculatorController {
     private final @Getter View view;
-    private final Counter counter;
+    private final Calculator calculator;
 
     @Override
     public void dataCleanRequested() {
@@ -25,7 +25,7 @@ public class ControllerImplementation implements CounterController {
     public void countRequested() {
         try {
             Player[] players = view.parseData();
-            view.showResult(counter.count(players));
+            view.showResult(calculator.calculate(players));
         } catch(NumberFormatException _) {
             handleNumberFormatException();
         } catch(NegativeNumberException _) {

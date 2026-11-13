@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     
     <groupId>AlexanderZotin</groupId>
-    <artifactId>Card-game-counter</artifactId>
+    <artifactId>Preferans-score-calculator</artifactId>
     <version>1.1</version>
     <packaging>jar</packaging>
     
@@ -33,7 +33,7 @@
                     <outputDirectory>${project.basedir}</outputDirectory>
                     <archive>
                         <manifest>
-                            <mainClass>counter.Main</mainClass>
+                            <mainClass>calculator.Main</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
@@ -45,7 +45,7 @@
                 <version>3.5.0</version>
                 
                 <configuration>
-                    <mainClass>counter.Main</mainClass>
+                    <mainClass>calculator.Main</mainClass>
                 </configuration>
                 
                 <executions>

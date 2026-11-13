@@ -1,8 +1,8 @@
-package counter.controller;
+package calculator.controller;
 
-import counter.view.View;
+import calculator.view.View;
 
-public interface CounterController {
+public interface CalculatorController {
     View getView();
     void dataCleanRequested();
     void countRequested();

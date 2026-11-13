@@ -1,6 +1,6 @@
-package counter.view;
+package calculator.view;
 
-import counter.model.PlayersCount;
+import calculator.model.PlayersCount;
 
 import javax.swing.JLabel;
 import javax.swing.JTextField;

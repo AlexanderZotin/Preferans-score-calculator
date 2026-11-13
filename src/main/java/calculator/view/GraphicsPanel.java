@@ -1,6 +1,6 @@
-package counter.view;
+package calculator.view;
 
-import counter.model.PlayersCount;
+import calculator.model.PlayersCount;
 
 import javax.swing.JPanel;
 import java.awt.Graphics;
@@ -9,6 +9,7 @@ import lombok.AllArgsConstructor;
 import lombok.NonNull;
 import lombok.Setter;
 
+@SuppressWarnings("serial")
 @NonNull
 @AllArgsConstructor
 class GraphicsPanel extends JPanel {

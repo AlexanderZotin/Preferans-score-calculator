@@ -1,4 +1,4 @@
-package counter.model;
+package calculator.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
