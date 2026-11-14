@@ -32,7 +32,7 @@ public class Window extends JFrame implements View {
         playersCountComboBox.setSelectedItem(PlayersCount.THREE);
         constructPanels();
         setResizable(false);
-        setTitle("Преферанс-счётчик. ©А.А Зотин, 2023 — 2024");
+        setTitle("Преферанс-счётчик. ©А.А Зотин, 2023 — 2026");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setPreferredSize(new Dimension(505, 530));
         pack();

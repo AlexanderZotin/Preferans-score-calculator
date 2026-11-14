@@ -1,3 +1,6 @@
+# Preferans score calculator
+[🇷🇺 Русский](#ru) | [🇩🇪 Deutsch](#de)
+
 # RU
 
 ## Что это?
@@ -21,8 +24,11 @@
 
 ## Как использовать?
 
-Нужно скачать и запустить исполняемый jar-файл (он находится на вкладке Releases).
+Нужно скачать и запустить исполняемый Jar-файл (он находится на вкладке Releases).
 Для запуска требуется Java 22+.
+
+## Пример подсчёта
+![Пример подсчёта для четырёх игроков](screenshots/calculation-for-4-players.png)
 
 # DE
 
@@ -41,8 +47,11 @@ Das Ergebnis wird danach von den Whists des Spielers subtrahiert und zu den Whis
 3. Die Whists (sowohl während des Spieles notierte als auch aus dem Berg konvertierte) werden berechnet. 
 4. Die Whists jedes Spielers werden algebraisch summiert.
 
-### Wie kann man das benutzen?
+## Wie kann man das benutzen?
 
-Man sollte die Jar-Datei (sie ist auf der Releases-Seite zu finden) herunterladen und starten.
+Laden Sie die Jar-Datei (sie ist auf der Releases-Seite zu finden) herunter und starten Sie sie.
 Für den Start wird Java 22+ benötigt.
+
+## Beispiel der Berechnung
+![das Beispiel der Berechnung für 4 Spieler](screenshots/calculation-for-4-players.png)
  
